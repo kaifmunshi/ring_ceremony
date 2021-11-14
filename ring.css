@@ -222,6 +222,9 @@ footer i{
         width:95%;
         margin: .5rem;
     }
+    .banner{
+        background-image: url(mobile.bmp);
+    }
     .nav b{
         font-size: 1.85rem;
         padding:0.5rem;
