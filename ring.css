@@ -214,12 +214,10 @@ footer i{
     color:skyblue;
     font-size: 30px;
     margin-left: 20px;
+
 }
-[class*="col-"] {
-    width: 100%;
-  }
-}
-@media (max-width:480px) and (min-width:320px) {
+
+@media only screen and (max-width:480px) and (min-width:320px) {
     .nav{
         width:95%;
     }
@@ -232,7 +230,8 @@ footer i{
         margin: 1rem auto;
     }
     .text{
-        left:0px
+        left:0px;
+        text-align: center;
     }
     .text h1{
         top: 15px;
@@ -242,5 +241,8 @@ footer i{
     .and{
         display: block;
         text-align: center;
+    }
+    .date{
+        font-size: 2rem;
     }
 }
