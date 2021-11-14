@@ -215,7 +215,10 @@ footer i{
     font-size: 30px;
     margin-left: 20px;
 }
-
+[class*="col-"] {
+    width: 100%;
+  }
+}
 @media (max-width:480px) and (min-width:320px) {
     .nav{
         width:95%;
