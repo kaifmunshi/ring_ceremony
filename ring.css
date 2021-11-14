@@ -220,6 +220,7 @@ footer i{
 @media only screen and (max-width:600px) and (min-width:320px) {
     .nav{
         width:95%;
+        margin: .5rem;
     }
     .nav b{
         font-size: 1.85rem;
@@ -231,6 +232,7 @@ footer i{
         margin: 1rem auto;
     }
     .text{
+        top:0px;
         left:0px;
         text-align: center;
     }
@@ -254,10 +256,16 @@ footer i{
         width: 19rem;
     }
     #demo{
-        margin: 1rem auto;
+        margin: .5rem auto;
     }
     .venue p{
         line-height: 43px;
         color: #f15;
+    }
+    .quote{
+        text-align: center;
+    }
+    .quote p{
+        font-size: 2rem;
     }
 }
